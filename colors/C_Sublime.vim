@@ -21,13 +21,13 @@ let colors_name = "C_Sublime"
 "==============================================================================
 
 " blue
-hi c89Function         ctermfg=117
+hi c89Function          ctermfg=117
 hi link cStructure      c89Type
 hi link cStructureType  c89Type
 hi link cSizeofOperator c89Type
 
 " green 154 or 155 (154 is brighter)
-hi cType             ctermfg=154
+hi cType               ctermfg=154
 
 " pink 
 hi cDefine             ctermfg=198
@@ -37,8 +37,10 @@ hi link cConditional   cDefine
 hi link cRepeat        cDefine
 
 " yellow
-hi cIncludeFile      ctermfg=221
+hi cIncludeFile        ctermfg=221
 hi link cString        cIncludeFile
+hi link cEscapeChar    cIncludeFile
+hi link cScanFormat    cIncludeFile
 
 " purple
 hi cDecimal            ctermfg=135
@@ -53,3 +55,4 @@ hi cConditionalOperator ctermfg=white
 hi cMathOperator        ctermfg=white
 hi cLogicalOperator     ctermfg=white
 hi cPointerOperator     ctermfg=white
+hi cBinaryOperator      ctermfg=white
